@@ -1,0 +1,90 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+a {
+    padding-right:1%;
+    text-decoration:none;
+    color:#fff
+}
+
+/* Contact */
+.contact {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    height: 719px;
+}
+
+.contact__info {
+    float: left;
+    padding-top: 95px;
+    width: 50%;
+    background-color: #092e55;
+    height: 719px;
+}
+
+.contact__title {
+    display: block;
+    margin-bottom: 65px;
+}
+
+.contact__title1 {
+    margin: 0;
+    padding-top: 15px
+}
+
+.contact__title2 {
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.contact__title3 {
+    padding-bottom: 70px
+}
+
+/* Contact Map */
+
+.contact__map {
+    float: right;
+    width: 50%
+}
+.contact__map_pic {
+    background:url(../images/map_fig.png) no-repeat;
+    background-size:cover;
+    display:block;
+    height:815px;
+}
+
+.contact__form {
+    margin-left: 17%;
+    margin-top: 300px;
+}
+
+.contact__input {
+    padding: 0.85% 37% 0.85% 0.85%;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    color: #cccccc
+}
+
+.input__submit {
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 300px;
+    color: #fff;
+    padding: 24px 47.8% 22px 1.7%;
+    background-color: #092e55
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+}

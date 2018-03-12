@@ -1,0 +1,483 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    padding-right:1%;
+    text-decoration:none;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+/* Header */
+.header {
+    background-color:#1f2123;
+}
+
+.header__logo {
+    float:left;
+    padding-left:2%;
+    padding-top:15px;
+    padding-right:15.42%;
+}
+
+.nav {
+    color: white;
+    text-transform: uppercase;
+    padding: 42px 0;
+    font-size: 14px;
+}
+
+/* Carousel */
+.carousel__slide1 {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase
+}
+
+
+.carousel_slide2__title {
+    display: block;
+    position: absolute;
+    left: 17.5%;
+    top:40%;
+    text-transform: uppercase
+}
+
+
+.carousel_slide2__line1 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 17.5%;
+    text-transform: uppercase
+}
+
+.carousel_slide2__line2 {
+    display: block;
+    position: absolute;
+    top: 56%;
+    left: 17.5%;
+    text-transform: uppercase
+}
+
+.carousel_slide2__line3 {
+    display: block;
+    position: absolute;
+    top: 62%;
+    left: 17.5%;
+    text-transform: uppercase
+}
+
+.carousel_slide {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase
+}
+
+
+.carousel__image {
+    background:url(../images/gundem.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image1 {
+    background:url(../images/hakkimizda.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image2 {
+    background:url(../images/hizmetlerimiz.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image3 {
+    background:url(../images/slide1.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image4 {
+    background:url(../images/slide2.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image5 {
+    background:url(../images/slide3.jpg) no-repeat;
+    background-size:cover;
+    display:block;
+    height:450px;
+    max-height:450px;
+    margin-bottom:0;
+    position:relative;
+}
+
+.carousel__image6 {
+    background: url(../images/slide4.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+    height: 450px;
+    max-height: 450px;
+    margin-bottom: 0;
+    position:relative;
+}
+
+
+/* Main content */
+.main {
+    margin: 0 17%;
+    text-align: center;
+    margin-bottom: 4.35%;
+}
+
+.main__center__title {
+    font-size: 30px;
+    display: block;
+    margin-top: 160px
+}
+
+.main__text {
+    margin: 0 17%;
+}
+
+.main__text__left {
+    width: 55%;
+    float: left;
+}
+
+.main__left__title {
+    color: #00a8e1;
+    margin: 0;
+    padding-bottom: 30px
+}
+
+.main__left__par {
+    margin: 0
+}
+
+.main__graph {
+    margin-top: 50px;
+    margin-bottom: 45px
+}
+
+.main__text__right {
+    float: right;
+    width: 350px;
+    margin-bottom: 200px;
+}
+
+.main__right {
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: #092e55;
+    color: #fff;
+}
+
+.main__title {
+    margin-right: 16px;
+    margin-left: 30px;
+    line-height: 3.5;
+    padding-left: 53px;
+}
+
+.main__right__par {
+    background-color: #f2f2f2;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 34px;
+    padding-top: 23px;
+}
+
+.main__globe {
+    background:url(../images/globe.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:60px;
+    margin-left:27px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.main__par1 {
+    background-color: #f2f2f2;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 34px;
+    padding-top: 23px;
+}
+
+.main__right__image1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.main__image__text {
+    color: #4c749d;
+    margin: 0
+}
+
+.main__image1__text1 {
+    display: inline-block;
+    color: #4c749d;
+}
+
+.main__right__button {
+    display: block;
+    float: right
+}
+
+.main__button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00a8e1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    margin-top: 15px
+}
+
+.main__lines {
+    color: #092e55;
+    clear: both;
+    margin: 10px 0 0 0
+}
+
+.main__right__image2 {
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px
+}
+
+.main__right__text2 {
+    color: #4c749d;
+    margin: 40px 0 0 0
+}
+
+.main__image2__text2 {
+    display: inline-block;
+    color: #4c749d
+}
+
+.main__image2__button {
+    display: block;
+    float: right
+}
+
+.main__image2__button2 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00a8e1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    margin-top: 15px
+}
+
+.main__right__image3 {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.main__button__link {
+    float: right;
+    font-weight: bold;
+    margin: 0;
+    color: #092e55;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+/* Twitter */
+.twitter__widget {
+    background-color: #f2f2f2;
+    padding-top: 29px;
+    padding-bottom: 21px
+}
+
+
+.twitter__image {
+    padding-left: 36px;
+    float: left
+}
+
+
+.twitter__link__user {
+    color: #20b2e3;
+    float: right;
+    display: block;
+    margin-right: 180px;
+}
+
+/* Footer */
+.footer {
+    padding: 30px 16%;
+    clear: both;
+    background-color: #414042;
+    height: 370px;
+}
+
+.footer__left {
+    padding: 0 5.35% 0 0;
+    width: 30%;
+    float: left;
+}
+
+.footer__hr {
+    border-color: #9c9c9c
+}
+
+.footer__left__text {
+    color: #9c9c9c
+}
+
+.footer__middle {
+    width: 30%;
+    float: left;
+}
+
+.footer__middle__title {
+    color: #fff
+}
+
+.footer__middle__links {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.footer__middle__links li {
+    margin-bottom:20px;
+}
+
+.footer__middle__links li a {
+    color:#999999
+}
+
+.footer__right {
+    width: 30%;
+    float: right;
+}
+
+.footer__right__title {
+    color: #fff
+}
+
+.footer__right__media {
+    list-style: none;
+    padding: 0
+}
+
+.footer__media__twitter {
+    background:url(../images/twitter.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+    margin-bottom:15px
+}
+
+.footer__media__twitter a {
+    color: #999999;
+    padding-left: 25px;
+    padding-bottom: 15px
+}
+
+.footer__media__facebook {
+    background:url(../images/facebook.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+    margin-bottom:15px
+}
+
+.footer__media__facebook a {
+    color:#999999;
+    padding-left:27px;
+}
+
+.footer__media__linkedin {
+    background:url(../images/linkedin.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+}
+
+.footer__media__linkedin a {
+    color:#999999;
+    padding-left:27px;
+}
+
+.footer__right__title2 {
+    color: #fff;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.footer__right__address {
+    color: grey;
+    margin: 0;
+    padding: 0
+}
+
+.footer__right__address2 {
+    color: grey;
+    margin: 0;
+    padding-bottom: 25px
+}
+
+.footer__right__address4 {
+    color: grey;
+    margin: 0
+}
+
+.footer__right__email {
+    text-decoration: underline;
+    color: grey
+}
+
+.copyright {
+    background-color: #29282b;
+    padding: 34px 0;
+    text-align: center;
+    color: #9c9c9c
+}

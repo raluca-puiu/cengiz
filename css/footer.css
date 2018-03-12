@@ -1,0 +1,133 @@
+
+/* Footer */
+.footer {
+    padding: 30px 16%;
+    clear: both;
+    background-color: #414042;
+    height: 370px;
+}
+
+.footer__left {
+    padding: 0 5.35% 0 0;
+    width: 30%;
+    float: left;
+}
+
+.footer__hr {
+    border-color: #9c9c9c
+}
+
+.footer__left__text {
+    color: #9c9c9c
+}
+
+.footer__middle {
+    width: 30%;
+    float: left;
+}
+
+.footer__middle__title {
+    color: #fff
+}
+
+.footer__middle__links {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.footer__middle__links li {
+    margin-bottom:20px;
+}
+
+.footer__middle__links li a {
+    color:#999999
+}
+
+.footer__right {
+    width: 30%;
+    float: right;
+}
+
+.footer__right__title {
+    color: #fff
+}
+
+.footer__right__media {
+    list-style: none;
+    padding: 0
+}
+
+.footer__media__twitter {
+    background:url(../images/twitter.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+    margin-bottom:15px
+}
+
+.footer__media__twitter a {
+    color: #999999;
+    padding-left: 25px;
+    padding-bottom: 15px
+}
+
+.footer__media__facebook {
+    background:url(../images/facebook.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+    margin-bottom:15px
+}
+
+.footer__media__facebook a {
+    color:#999999;
+    padding-left:27px;
+}
+
+.footer__media__linkedin {
+    background:url(../images/linkedin.png) no-repeat;
+    background-size:contain;
+    display:block;
+    height:16px;
+}
+
+.footer__media__linkedin a {
+    color:#999999;
+    padding-left:27px;
+}
+
+.footer__right__title2 {
+    color: #fff;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.footer__right__address {
+    color: grey;
+    margin: 0;
+    padding: 0
+}
+
+.footer__right__address2 {
+    color: grey;
+    margin: 0;
+    padding-bottom: 25px
+}
+
+.footer__right__address4 {
+    color: grey;
+    margin: 0
+}
+
+.footer__right__email {
+    text-decoration: underline;
+    color: grey
+}
+
+.copyright {
+    background-color: #29282b;
+    padding: 34px 0;
+    text-align: center;
+    color: #9c9c9c
+}

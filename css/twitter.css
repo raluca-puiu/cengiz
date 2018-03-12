@@ -1,0 +1,19 @@
+/* Twitter */
+
+.twitter {
+    background-color: #f2f2f2;
+    padding-top: 29px;
+    padding-bottom: 21px;
+}
+
+.twitter__image {
+    padding-left:36px;
+    float:left
+}
+
+.twitter__username {
+    color: #20b2e3;
+    float: right;
+    display: block;
+    margin-right: 180px;
+}
